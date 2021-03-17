@@ -94,3 +94,8 @@ select *
     using (loc, deptno);
     
 commit;
+
+select *
+    from dept join dept_tp
+    using (deptno, dname);
+    
